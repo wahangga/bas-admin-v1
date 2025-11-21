@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import logoDark from '@/assets/images/logo-bas.png';
 import LogoutButton from '@/components/LogoutButton';
 import CustomFlatpickr from '@/components/CustomFlatpickr';
