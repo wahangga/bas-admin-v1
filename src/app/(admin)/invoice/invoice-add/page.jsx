@@ -1,6 +1,5 @@
 import logoDark from '@/assets/images/logo-bas.png';
 import LogoutButton from '@/components/LogoutButton';
-import Link from 'next/link';
 import CustomFlatpickr from '@/components/CustomFlatpickr';
 import ChoicesFormInput from '@/components/form/ChoicesFormInput';
 import PageTItle from '@/components/PageTItle';
