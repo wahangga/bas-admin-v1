@@ -1,4 +1,4 @@
-import logoDark from '@/assets/images/logo-dark.png';
+import logoDark from '@/assets/images/logo-bas.png';
 import AppProvidersWrapper from '@/components/wrappers/AppProvidersWrapper';
 import { Play } from 'next/font/google';
 import Image from 'next/image';
@@ -12,10 +12,10 @@ const play = Play({
 });
 export const metadata = {
   title: {
-    template: '%s | Larkon Nextjs - Responsive Admin Dashboard Template',
+    template: '%s | Stichting Bali Abdi Samasta',
     default: DEFAULT_PAGE_TITLE
   },
-  description: 'Bootstrap 5 based  Responsive Admin Dashboard Template'
+  description: 'Stichting Bali Abdi Samasta'
 };
 const splashScreenStyles = `
 #splash-screen {

@@ -5,10 +5,7 @@ const Footer = () => {
       <Container fluid>
         <Row>
           <Col xs={12} className="text-center">
-            © Larkon. Crafted by <IconifyIcon icon="iconamoon:heart-duotone" className="fs-18 align-middle text-danger" />{' '}
-            <a className="fw-bold footer-text" target="_blank">
-              Techzaa
-            </a>
+            © {new Date().getFullYear()} Stichting Bali Abdi Samasta. All rights reserved.
           </Col>
         </Row>
       </Container>

@@ -1,4 +1,6 @@
-import logoDark from '@/assets/images/logo-dark.png';
+import logoDark from '@/assets/images/logo-bas.png';
+import LogoutButton from '@/components/LogoutButton';
+import Link from 'next/link';
 import CustomFlatpickr from '@/components/CustomFlatpickr';
 import ChoicesFormInput from '@/components/form/ChoicesFormInput';
 import PageTItle from '@/components/PageTItle';
@@ -11,6 +13,10 @@ export const metadata = {
 };
 const InvoiceAddPage = () => {
   return <>
+    <div className="d-flex justify-content-end align-items-center mb-3 gap-2">
+      <Link href="/auth/sign-in" className="btn btn-outline-primary">Log In</Link>
+      <LogoutButton />
+    </div>
       <PageTItle title="INVOICES CREATE" />
       <Row className="justify-content-center">
         <Col lg={10}>
